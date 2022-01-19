@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .header-container {
@@ -9,9 +10,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    border-bottom: 1px solid #f2f2f2;
-    padding: 2.3em 0;
     background: #1f2937;
+    padding: 10px 60px 60px 60px;
 }
 
 .logo {
@@ -49,4 +49,58 @@ li a:active {
 
 li a:hover {
     color: #b6b6b6;
+}
+
+.sectiontwo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 2.3em 0;
+    background: #1f2937;
+    color: #fff;
+    padding: 60px;
+    
+    
+    
+}
+
+.sectiontwo-container img {
+    display: block;
+    width: 425px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.sectiontwo-container button {
+    display: block;
+    background: #3882f6;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px 32px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 50px;
+    
+}
+
+.sectiontwo-container p {
+    display: block;
+    width: 400px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 50px;
+    
+    
+}
+
+.sectiontwo-container h1{
+    display: block;
+    font-size: 40px;
+    margin: 50px;
 }
