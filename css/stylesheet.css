@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    
 }
 
 .header-container {
@@ -60,9 +59,6 @@ li a:hover {
     background: #1f2937;
     color: #fff;
     padding: 60px;
-    
-    
-    
 }
 
 .sectiontwo-container img {
@@ -70,7 +66,6 @@ li a:hover {
     width: 425px;
     margin-left: 100px;
     margin-bottom: 100px;
-    
 }
 
 .sectiontwo-container button {
@@ -86,7 +81,6 @@ li a:hover {
     display: inline-block;
     font-size: 25px;
     margin: 50px;
-    
 }
 
 .sectiontwo-container p {
@@ -95,8 +89,6 @@ li a:hover {
     text-align: justify;
     font-size: 20px;
     margin: 50px;
-    
-    
 }
 
 .sectiontwo-container h1{
