@@ -40,6 +40,26 @@
 
 }
 
+.maincontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #1f2937;
+  
+}
+
+.item {
+  border: darkred 2px solid;
+  /*height: 150px;*/
+  /*width: 300px;*/
+  border: 2px solid black;
+  background: darkred;
+  color: white;
+
+  
+
+}
+
 /*.row {
   display: flex;
   flex-wrap: wrap;
