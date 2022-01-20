@@ -4,9 +4,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-
 }
-
 
 .navbar ul {
   display: flex;
@@ -14,10 +12,7 @@
   align-items: center;
   background: #1f2937;
   list-style: none;
-  padding: 15px;
-
-
-  
+  padding: 15px; 
 }
 
 .navbar .space li {
@@ -31,8 +26,7 @@
 
 .navbar a {
   text-decoration: none;
-  color: white;
-  
+  color: white;  
 }
 
 .navbar a:hover {
@@ -44,8 +38,7 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  background: #1f2937;
-  
+  background: #1f2937; 
 }
 
 .item {
@@ -55,9 +48,6 @@
   border: 2px solid black;
   background: darkred;
   color: white;
-
-  
-
 }
 
 /*.row {
