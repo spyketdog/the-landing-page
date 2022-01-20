@@ -2,97 +2,82 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
 
-.header-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    background: #1f2937;
-    padding: 10px 60px 60px 60px;
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  list-style: none;
+  padding: 15px;
+
+
+  
 }
 
-.logo {
-    margin-left: 2.3em;
+.navbar .space li {
+  flex-grow: 1;
 }
 
-.logo img {
-    display: block;
+.navbar .logo {
+  display: block;
+
 }
 
-nav {
-    align-self:center; 
-    margin: 0 0.8em 0 0;
+.navbar a {
+  text-decoration: none;
+  color: white;
+  
 }
 
-header ul li {
-    padding: 0 1.4em 0 0;
-    color: #7d7c7d;
-    font-size: 20px;
-    color: #fff;
+.navbar a:hover {
+  text-decoration: none;
+
 }
 
-header ul {
-    display: flex;
-    flex-flow: row wrap;
-    list-style: none;
-    justify-content: center;
+/*.row {
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
-li a:active {
-    color: #000;
-    border-bottom: 2px solid #000;
-    font-weight: 300;
+.side {
+  flex: 1;
+  padding: 20px;
+  background: #1f2937;
+  color: white;
+
+
 }
 
-li a:hover {
-    color: #b6b6b6;
+.main {
+  flex: 1.5;
+  justify-items: center; 
+
+  
+}*/
+
+/*.imagebox {
+  display: flex;
+  background: #aaa;
+  background: grey;
+  align-items: center;
+  justify-content: center;
+ }*/
+
+
+.footer {
+
 }
 
-.sectiontwo-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #f2f2f2;
-    padding: 2.3em 0;
-    background: #1f2937;
-    color: #fff;
-    padding: 60px;
+/*@media screen and (max-width:700px){
+  .row, .navbar {
+    flex-direction: column;
+  }
 }
-
-.sectiontwo-container img {
-    display: block;
-    width: 425px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-}
-
-.sectiontwo-container button {
-    display: block;
-    background: #3882f6;
-    border: none;
-    border-radius: 8px;
-    color: #fff;
-    padding: 15px 32px;
-    margin-top: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    margin: 50px;
-}
-
-.sectiontwo-container p {
-    display: block;
-    width: 400px;
-    text-align: justify;
-    font-size: 20px;
-    margin: 50px;
-}
-
-.sectiontwo-container h1{
-    display: block;
-    font-size: 40px;
-    margin: 50px;
-}
+*/
