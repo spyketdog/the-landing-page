@@ -65,7 +65,7 @@
   margin-top: 60px;
   width: 150px;
   background: #3882f6;
-  border: 2px solid #fff;
+  border: none;
   border-radius: 10px; 
 }
 
@@ -109,77 +109,22 @@
 }
 
 .section-4 .section-4-items p {
+ 
   margin-top: 10px;
   text-align: center;  
   font-size: 20px;
-  padding: 0px 0px 150px 0px;
-
 }
 
 .section-5 {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background: #e5e7eb;
   font-size: 36px;
-  color: #1f2937;
-  font-style: italic;
-  text-align: center;
-  padding: 150px;
+  font-style: italic  #1f2937;
 }
 
-.section-5 :nth-child(2){
-  text-align: right;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 30px;
-  padding-top: 10px;
+/*.footer {
+
 }
-
-.section-6 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: #3882f6;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  color: white;
-  margin: 75px;
-  border-radius: 10px;
-  
-  
-}
-
-.section-6 button {
-  width: 150px;
-  background: #3882f6;
-  border: 2px solid white;
-  border-radius: 10px; 
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px;
-}
-
-.section-6 button:hover {
-  background: #ce0000;
-}
-
-.section-6 button a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer {
-  text-align: center;
-  font-size: 20px;
-  background: #1f2937;
-  color: #fff;
-  padding: 50px;
-}
-
-
-
-/*
 
 /*@media screen and (max-width:700px){
   .row, .navbar {
