@@ -1,5 +1,5 @@
 # the-landing-page
-An Odin Project build from scratch with HTML and CSS
+An Odin Project build from scratch with HTML and CSS FlexBox Only.
 
 https://spyketdog.github.io/the-landing-page/
 
